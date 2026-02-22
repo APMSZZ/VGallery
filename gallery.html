@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accessible Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/gallery.js" defer></script>
+</head>
+<body>
+
+    <h1>VGal: Interactive Photo Gallery</h1>
+
+    <div id="image">
+        Hover over or focus on an image below to display here.
+    </div>
+
+    <div class="gallery">
+        <img class="preview" src="img/Poods.jpg" alt="Poodle" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" src="img/GerShep.jpg" alt="German Sheperd" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" src="img/LabRet.jpg" alt="Labrador Retriever" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" src="img/DaSch.jpg" alt="Daschund" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" src="img/BuDo.jpg" alt="Bulldog" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        <img class="preview" src="img/Chi.jpg" alt="Chihuahua" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()">
+    </div>
+
+</body>
+</html>
