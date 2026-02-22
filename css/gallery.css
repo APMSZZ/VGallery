@@ -1,0 +1,42 @@
+body {
+    margin: 2%;
+    font-family: Arial, sans-serif;
+    background-color: #b3b3b3;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#image {
+    width: 600px;
+    height: 650px;
+    margin: 0 auto 25px;
+    border: 5px solid black;
+    line-height: 650px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #8e68ff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.3s ease;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.preview {
+    width: 100px;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+.preview:focus {
+    outline: 3px solid yellow; /* shows which image is focused for accessibility */
+}
